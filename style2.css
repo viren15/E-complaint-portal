@@ -1,0 +1,89 @@
+html{
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+}
+*{
+    box-sizing: border-box;
+}
+.header{
+    width:100%;
+    height:150px;
+    display: flex;
+    border:2px solid crimson;
+}
+.h11{
+    position: relative;
+    flex:1 1 15%;
+}
+img{
+    position: absolute;
+    right:10px;
+    top:15px;
+    width:100px;
+    height:120px;
+}
+.h21{
+    flex:3 1 50%;
+}
+.h21 p{
+    font-size: 3.5rem;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+#one{
+    font-size: 2.5rem;
+    margin-top: 10px;
+}
+header{
+    width:100%;
+    height:60px;
+    padding-left: 10%;
+    border: 2px solid black;
+    background-color: crimson;
+}
+a{
+    display: inline-block;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    width:10%;
+    height: 60px;
+    padding-top: 15px;
+}
+footer{
+    height:120px;
+    width:100%;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top:50px;
+    border: 1px solid crimson;
+}
+a:hover{
+    background-color: aqua;
+}
+main{
+    display: flex;
+}
+.first{
+    flex:1 1 10%;
+    border:1px solid crimson;
+    padding: 10px;
+}
+.second{
+    flex: 5 1 50%;
+    border:1px solid crimson;
+    padding: 10px;
+}
+li{
+    font-size:2rem;
+    padding-bottom: 10px;
+}
+p{
+    font-size: 2.5rem;
+}
+ul{
+    padding-left: 10px;
+}
